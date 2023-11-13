@@ -6,12 +6,12 @@ import io.cucumber.java.en.When;
 
 public class StepDef {
 
-    @Given("User input in email field")
-    public void user_input_in_email_field() {
+    @Given("open qualipro Web")
+    public void open_qualipro_web() {
 
     }
-    @When("User input in password field")
-    public void user_input_in_password_field() {
+    @When("write  login  and   password")
+    public void write_login_and_password() {
 
     }
     @When("User click connecte button")
