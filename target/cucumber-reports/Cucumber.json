@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-14T09:03:28.757Z",
+        "line": 4,
+        "name": "authentifcation",
+        "description": "",
+        "id": "authentifcation;authentifcation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open qualipro Web",
+            "match": {
+              "location": "steps.StepDef.open_qualipro_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "write  login  and   password",
+            "match": {
+              "location": "steps.StepDef.write_login_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click connecte button",
+            "match": {
+              "location": "steps.StepDef.user_click_connecte_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User redirected to homepage",
+            "match": {
+              "location": "steps.StepDef.user_redirected_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_xrayTB_6"
+          }
+        ]
+      }
+    ],
+    "name": "authentifcation",
+    "description": "",
+    "id": "authentifcation",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/xray-feature/1_authentifcation%20.feature",
+    "tags": []
+  }
+]

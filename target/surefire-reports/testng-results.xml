@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="365" started-at="2023-11-13T22:52:55 CET" finished-at="2023-11-13T22:52:55 CET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@7494e528]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Runner" duration-ms="365" started-at="2023-11-13T22:52:55 CET" finished-at="2023-11-13T22:52:55 CET">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@7494e528]" name="setUpClass" is-config="true" duration-ms="216" started-at="2023-11-13T22:52:55 CET" finished-at="2023-11-13T22:52:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@7494e528]" name="runScenario" duration-ms="83" started-at="2023-11-13T22:52:55 CET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-13T22:52:55 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["authentifcation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[authentifcation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@7494e528]" name="tearDownClass" is-config="true" duration-ms="45" started-at="2023-11-13T22:52:55 CET" finished-at="2023-11-13T22:52:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Runner -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
