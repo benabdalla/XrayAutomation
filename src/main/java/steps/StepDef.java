@@ -1,27 +1,32 @@
 package steps;
 
 
+import dev.failsafe.internal.util.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDef {
 
-    @Given("open qualipro Web")
-    public void open_qualipro_web() {
+    @Given("open web site qualipro")
+    public void open_web_site_qualipro() {
 
     }
-    @When("write  login  and   password")
-    public void write_login_and_password() {
+
+    @When("create login {string}")
+    public void create_login(String string) {
 
     }
-    @When("User click connecte button")
-    public void user_click_connecte_button() {
+
+    @When("create password {string}")
+    public void create_password(String string) {
 
     }
-    @Then("User redirected to homepage")
-    public void user_redirected_to_homepage() {
+
+    @Then("authentication outcome should be {string}")
+    public void authentication_outcome_should_be(String string) {
 
     }
+
 
 }
